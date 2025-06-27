@@ -1,5 +1,5 @@
 
-# LangChain Language Translator using Groq +  🚀
+# LangChain Language Translator using Groq  🚀
 
 This is a simple Language Translator app built using:
 
