@@ -19,13 +19,7 @@ This is a simple Language Translator app built using:
 pip install -r requirements.txt
 python serve.py
 ```
-
-Then go to: [http://localhost:8015/chain/playground](http://localhost:8015/chain/playground)
-
-## 📁 Endpoints
-
-- `/chain/playground`: UI to test your prompts and translations.
-- `/docs`: FastAPI Swagger UI for API documentation.
+.
 
 ## 🔑 Environment Variables
 
