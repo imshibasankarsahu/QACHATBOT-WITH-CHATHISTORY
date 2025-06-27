@@ -1,0 +1,40 @@
+
+# LangChain Language Translator using Groq + FastAPI 🚀
+
+This is a simple Language Translator app built using:
+
+- 🗣️ **Groq API** — For fast inference using `Gemma2-9b-It` model
+- ⚙️ **LangServe** — To expose chains via HTTP endpoints
+
+## 🔧 Features
+
+- Translate user input into any target language using Groq LLM.
+- Clean chain structure using LangChain's `ChatPromptTemplate`, `StrOutputParser`.
+- Deployed using FastAPI with route `/chain`.
+- Playground and OpenAPI (`/docs`) enabled with LangServe.
+
+## 📦 How to Run
+
+```bash
+pip install -r requirements.txt
+python serve.py
+```
+
+Then go to: [http://localhost:8015/chain/playground](http://localhost:8015/chain/playground)
+
+## 📁 Endpoints
+
+- `/chain/playground`: UI to test your prompts and translations.
+- `/docs`: FastAPI Swagger UI for API documentation.
+
+## 🔑 Environment Variables
+
+Ensure you have a `.env` file with:
+```env
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+---
+
+💡 **Author**: Shiba Sankar Sahu  
+🔗 GitHub: [imshibasankarsahu](https://github.com/imshibasankarsahu)
