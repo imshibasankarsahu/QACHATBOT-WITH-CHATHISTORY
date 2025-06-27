@@ -1,5 +1,5 @@
 
-# LangChain Language Translator using Groq + FastAPI 🚀
+# LangChain Language Translator using Groq +  🚀
 
 This is a simple Language Translator app built using:
 
@@ -10,8 +10,7 @@ This is a simple Language Translator app built using:
 
 - Translate user input into any target language using Groq LLM.
 - Clean chain structure using LangChain's `ChatPromptTemplate`, `StrOutputParser`.
-- Deployed using FastAPI with route `/chain`.
-- Playground and OpenAPI (`/docs`) enabled with LangServe.
+
 
 ## 📦 How to Run
 
